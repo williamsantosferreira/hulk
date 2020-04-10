@@ -1,5 +1,7 @@
 #include <iostream>
 #include <sstream>
+#include "string.h"
+#include "serial/serial.h"
 
 class Driver
 {
@@ -23,3 +25,6 @@ int Driver::read_encoder_rpm(int encoder){
 	int rpm;
 	return 0;
 	}
+
+	
+
